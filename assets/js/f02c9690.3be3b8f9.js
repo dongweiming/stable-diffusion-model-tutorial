@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[649],{8708:e=>{e.exports=JSON.parse('{"title":"Practice","slug":"/category/practice","permalink":"/docs/category/practice","navigation":{"previous":{"title":"intro","permalink":"/docs/advanced/intro"},"next":{"title":"intro","permalink":"/docs/practice/intro"}}}')}}]);

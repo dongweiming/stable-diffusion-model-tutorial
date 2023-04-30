@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[982],{4009:e=>{e.exports=JSON.parse('{"title":"Basic","slug":"/category/basic","permalink":"/docs/category/basic","navigation":{"next":{"title":"AIGC\u53d1\u5c55\u53f2","permalink":"/docs/basic/AIGC\u53d1\u5c55\u53f2"}}}')}}]);
