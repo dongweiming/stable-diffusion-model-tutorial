@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    link: '/docs/basic',
+    link: '/docs/',
     title: '入门教程',
     img: require('@site/static/img/1.png').default,
     description: (
