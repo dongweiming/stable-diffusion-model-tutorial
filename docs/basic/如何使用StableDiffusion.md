@@ -17,7 +17,7 @@ sidebar_position: 2
 
 PS: `Browing mode`选择`Everything`有惊喜，请做好心理建设哟~
 
-#### 在线使用Stable Diffusion
+### 在线使用Stable Diffusion
 
 如果你只是想要试玩一下，最简单的方法就是在线访问Stable Diffusion官方网站 https://beta.dreamstudio.ai/ ，可以免费产生约一百张图，之后需付少许费用。
 
@@ -121,3 +121,34 @@ Running on local URL:  http://127.0.0.1:7860
 可以看到，参数都一样的前提下，不同机器的相同seed出图是不一样的，但是在本机设置了同一个seed，重复生成图是一样的(注:把seed输入框改成默认的-1就是随机的):
 
 PS: 一个好习惯是点击下面的Save，会把图片按照日期存在本地。
+
+### 如何写好提示词
+
+我也正在学习写好用好提示词，目前有2个技巧。
+
+#### 寻找好的范例
+
+提示词主要包含标签和艺术家，可以从如下几个有用的网站获取更多信息:
+
+1. https://rentry.org/artists_sd-v1-4 艺术家列表
+2. https://www.urania.ai/top-sd-artists 艺术家列表
+3. https://stablediffusion.fr/artists 艺术家列表
+4. https://ai.dawnmark.cn/  图像细节，如风格、光照等
+5. https://tinygeeker.github.io/p/ai-prompt-generator/ AI 标签生成器，身体细节
+6. https://github.com/wfjsw/danbooru-diffusion-prompt-builder Danbooru 标签超市
+
+当然这种网站很多，欢迎浏览补充
+
+#### 获取AI生成图的提示词以及其它参数
+
+用SD生成的图的元数据中包含了生产时用的提示词以及各个参数等信息，在`stable-diffusion-webui`里面有个页面叫做「PNG info」，非常实用，只需要上传图片就可以看到这些原始信息:
+
+![](https://user-images.githubusercontent.com/841395/235357216-5a56c2b4-0b5f-4fb6-b964-80e01bf325b0.png)
+
+BTW，现在各平台限制AI图也是基于这个源数据识别，所以再处理掉图片文件中的这些信息就可以了。
+
+### 在Colab上运行stable-diffusion-webui
+
+本来可以使用Google Colab免费运行stable-diffusion-webui，但是已经不再容许免费用户这么用了，4月21日，Colab的产品lead发推提到了这件事，所以如果你看到有些教程提到使用Colab要注意得是付费用户了。不过我本来也不想推荐这个方式，主要是免费用户的空间是25G，如果你下载主模型等等相关资源是很容易超的，所以开始主推本地运行。
+
+Colab付费用户可以看这个项目: https://github.com/camenduru/stable-diffusion-webui-colab

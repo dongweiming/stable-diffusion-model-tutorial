@@ -13,7 +13,7 @@ AIGC全文叫做「AI Gererative Content」，这是继专业生产内容（PGC,
 
 AIGC进入大众视野里程碑的一件事是去年9月初，下面这幅使用MidJourney生成的数字油画《空间歌剧院》:
 
-![](https://cdn.matpool.com/images/01c1bb14_image003.jpg)
+![](https://user-images.githubusercontent.com/841395/235381847-03022564-4d65-4906-8500-326f2a04db05.jpeg)
 
 在美国科罗拉多州博览会(Colorado State Fair)的艺术比赛中夺得了第一名，之后大赛评委并未对该幅作品进行改判，并认为即使它是AI生成的作品，也依旧配得上这样的成绩，这一新闻被报道后引发了圈内外的广泛讨论。
 

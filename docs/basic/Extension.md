@@ -12,16 +12,17 @@ sidebar_position: 4
 
 这里面列出来当前全部的扩展，比如常用的:
 
-1. https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN。简体中文汉化
-2. https://github.com/journey-ad/sd-webui-bilingual-localization。双语汉化
-3. https://github.com/civitai/sd_civitai_extension。C站的官方扩展，可以自动下载模型
-4. https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper。另外一个C站的扩展
-5. https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients。根据美学权重优化图片
-6. https://github.com/hnmr293/sd-webui-llul。用于给局部增加细节。
-7. https://github.com/Scholar01/sd-webui-mov2mov。制作视频，之后我们还会用得到。
-8. https://github.com/CiaraStrawberry/TemporalKit。用于让视频顺滑，之后我们还会用得到它+Ebsynth。
-9. https://github.com/canisminor1990/sd-webui-kitchen-theme。一个自定义主题，我这里只是提出这个思路，其实还有其他主题就不列出来了，我个人还是比较习惯原版UI。
-10. https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg。移除图片背景（对，可以用SD抠图）。
+1. https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN 简体中文汉化
+2. https://github.com/journey-ad/sd-webui-bilingual-localization 双语汉化
+3. https://github.com/civitai/sd_civitai_extension C站的官方扩展，可以自动下载模型
+4. https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper 另外一个C站的扩展
+5. https://github.com/DominikDoom/a1111-sd-webui-tagcomplete TAG自动补全
+6. https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients 根据美学权重优化图片
+7. https://github.com/hnmr293/sd-webui-llul 用于给局部增加细节
+8. https://github.com/Scholar01/sd-webui-mov2mov 制作视频，之后我们还会用得到。
+9. https://github.com/CiaraStrawberry/TemporalKit 用于让视频顺滑，之后我们还会用得到它+Ebsynth。
+10. https://github.com/canisminor1990/sd-webui-kitchen-theme 一个自定义主题，我这里只是提出这个思路，其实还有其他主题就不列出来了，我个人还是比较习惯原版UI。
+11. https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg 移除图片背景（对，可以用SD抠图）。
 
 ### 扩展安装
 
