@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[756],{374:e=>{e.exports=JSON.parse('{"title":"Advanced","slug":"/category/advanced","permalink":"/docs/category/advanced","navigation":{"previous":{"title":"TextualInversion-Embedding","permalink":"/docs/basic/TextualInversion-Embedding"},"next":{"title":"intro","permalink":"/docs/advanced/intro"}}}')}}]);

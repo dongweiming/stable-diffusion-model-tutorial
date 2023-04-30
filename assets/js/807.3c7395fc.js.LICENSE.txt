@@ -1,3 +1,9 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
 /** @license React v16.14.0
  * react.production.min.js
  *
