@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    link: '/docs/',
+    link: '/docs/category/basic',
     title: '入门教程',
     img: require('@site/static/img/1.png').default,
     description: (
@@ -15,7 +15,7 @@ const FeatureList = [
     ),
   },
   {
-    link: '/docs/advanced',
+    link: '/docs/category/advanced',
     title: '高级教程',
     img: require('@site/static/img/2.png').default,
     description: (
@@ -25,7 +25,7 @@ const FeatureList = [
     ),
   },
   {
-    link: '/docs/practice',
+    link: '/docs/category/practice',
     title: '实践',
     img: require('@site/static/img/3.png').default,
     description: (

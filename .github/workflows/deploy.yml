@@ -28,7 +28,7 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Remove output folder
+      - name: Rename output folder
         run: mv build _site
 
       - name: Upload GitHub Pages artifact(s)

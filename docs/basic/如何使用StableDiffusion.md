@@ -145,7 +145,7 @@ PS: 一个好习惯是点击下面的Save，会把图片按照日期存在本地
 
 ![](https://user-images.githubusercontent.com/841395/235357216-5a56c2b4-0b5f-4fb6-b964-80e01bf325b0.png)
 
-BTW，现在各平台限制AI图也是基于这个源数据识别，所以再处理掉图片文件中的这些信息就可以了。
+BTW，现在各平台限制AI图也是基于这个源数据识别(用`imagemagick`的`identify`)，所以再处理掉图片文件中的这些信息就可以了。
 
 ### 在Colab上运行stable-diffusion-webui
 
