@@ -75,7 +75,9 @@ mv ~/Downloads/blindbox_V1Mix.safetensors ~/workspace/stable-diffusion-webui/mod
 mv ~/Downloads/revAnimated_v122.safetensors ~/workspace/stable-diffusion-webui/models/Stable-diffusion
 ```
 
-这里提一下`Checkpoint`这个模型类型，按我的理解它表示**存档点**，就是可以使用开源的Stable-diffusion不同版本的某个点作为模型使用。另外这个模型子类型叫做`Checkpoint Merge`，也就是它是将多个模型混合在一起，而且合并后不同的模型占了不一样的比例的权重。
+这里提一下`Checkpoint`这个模型类型，按我的理解它表示**存档点**，它是主模型。在相同的提示词和参数下生成的图片风格会由于主模型不同而效果差别非常大，这是因为每个主模型都是经过海量特定风格图片训练而成的合集，你必须有针对性的选择某个主模型。
+
+另外这个模型子类型叫做`Checkpoint Merge`，也就是它是将多个模型混合在一起，而且合并后不同的模型占了不一样的比例的权重。
 
 然后启动webUI:
 
