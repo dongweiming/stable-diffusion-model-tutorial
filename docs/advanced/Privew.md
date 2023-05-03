@@ -36,6 +36,6 @@ sidebar_position: 1
 
 再点击「Scan」按钮同步信息。之后点击「Refresh」按钮，就可以看到从Lora下载的模型大部分预览图出现了(没出现是被过滤啦):
 
-![](https://user-images.githubusercontent.com/841395/235809405-bbec6483-0121-41fd-8478-fb9a21dcb87a.gif)
+![](https://user-images.githubusercontent.com/841395/235838138-dfa43d20-b914-45dd-b921-cdd781e3000f.gif)
 
 当然，不是方案2是终极方案，因为有些18禁的图片作为预览图不方便，可以用方案1替换成其他的图片。
