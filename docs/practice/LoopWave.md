@@ -18,7 +18,18 @@ import ReactPlayer from 'react-player'
 
 然后在「Settings」Tab里面点击「Reload UI」重启Web，就可以在`img2img`模式里面看到这个脚本了。
 
-### 创建视频
+### 使用我维护的版本Loopback Wave V1.4.2
+
+`V1.4.1`这个版本看起来挺长时间并没有维护了，可能之后stable-diffusion-webui做了什么调整，其实现在的生成视频功能是失败的，会报错:
+
+```bash
+Could find no file with path 'outputs/img2img-images/loopback-wave/2174073990/%d.png' and index in the range 0-4 outputs/img2img-images/loopback-wave/2174073990/%d.png: No such file or directory
+```
+
+所以我修改了下代码，可以用我的项目 [stable-diffusion-files](https://github.com/dongweiming/stable-diffusion-files)里面的[loopback-wave.py](https://raw.githubusercontent.com/dongweiming/stable-diffusion-files/main/loopback-wave.py)。
+
+
+### 创建图片/视频
 
 接着我们上传一张图(或者用`txt2img`生成一张图后Send进来)。我这里列出来的例子是通过`txt2img`模式生成的一张使用blindbox人物的Lora模型生成的:
 
@@ -68,7 +79,7 @@ ffmpeg -framerate 10 -start_number 0 -i /Users/weiming.dong/workspace/stable-dif
 ```bash
 10::headphones
 40::headphones,red hair,
-70::headphones,yellow hair,
+A70::headphones,yellow hair,
 ```
 
 这样简单轻便，不需要全部提示词写进去，但是要注意不是所有模型都可以这样，可能会出现奇怪的效果，我的习惯是直接把原始的提示词都写进去。

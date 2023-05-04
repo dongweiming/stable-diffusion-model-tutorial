@@ -50,6 +50,8 @@ wget "https://huggingface.co/AIARTCHAN/aichan_blend/resolve/main/vae/Berry's%20M
 
 所谓没有对比就没有伤害，对比明显可以感受到不加VAE图片优点灰蒙蒙的，不够鲜艳，另外是细节不够，而加了不同的VAE都有了更好的颜色效果，细节更全了(微调)。
 
+这个对比图是我修改代码实现的，目前还不支持对比不加VAE和加了VAE，已经提了[PR](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/9926)
+
 最后，注意不同的VAE适配的模型不同，也不是某个VAE可以用在任何模型下，否则可能会生成非常奇怪的图。
 
 ### 为什么VAE模型比较少？
