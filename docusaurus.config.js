@@ -63,11 +63,11 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Stable Diffusion Model Tutorial',
-        logo: {
-          alt: 'Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
+          items: [
+          {
+            href: 'https://www.dongwm.com',
+            label: '个人博客',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
