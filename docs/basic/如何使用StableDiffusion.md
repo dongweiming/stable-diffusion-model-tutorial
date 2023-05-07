@@ -15,7 +15,7 @@ sidebar_position: 2
 
 ![](https://user-images.githubusercontent.com/841395/233838377-f3d5a0da-a5c8-4940-aaef-4dba29435332.png)
 
-PS: `Browing mode`选择`Everything`有惊喜，请做好心理建设哟~
+PS: `Browing mode`选择`Everything`有惊喜，请做好心理建设哟~，另外如果一个模型你搜不到，可能它被归类到NSFW里面，例如ChilloutMix。
 
 ### 在线使用Stable Diffusion
 
